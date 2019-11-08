@@ -2,7 +2,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
 from model import Model
-from gevent.wsgi import WSGIServer
+from gevent.pywsgi import WSGIServer
 import logging
 
 app = Flask(__name__)
