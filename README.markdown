@@ -1,5 +1,4 @@
-
-This is a project use seq2seq model to play couplets (对对联)。 This project is written with Tensorflow. You can try the demo at [https://ai.binwang.me/couplet](https://ai.binwang.me/couplet).
+这是一个使用 seq2seq模型实现人工智呢对对联的工具，基于TensorFlow ，fork自[王斌](https://www.binwang.me/)的[Github项目](https://github.com/wb14123/seq2seq-couplet)，原作者的demo在这里[这里](https://ai.binwang.me/couplet).
 
 Pre-requirements
 --------------
@@ -26,8 +25,6 @@ Open `couplet.py` and config the file locations and hyperparams. Then run `pytho
 ![loss graph](https://user-images.githubusercontent.com/1906051/36624881-50586e54-1950-11e8-8383-232763831cbc.png)
 
 If you stoped the training and want to continue to train it. You can set `restore_model` to `True` and use `m.train(<epoches>, start=<start>)`, which `start` is the steps you've already run.
-
-I've trained the model on a Nivida GTX-1080 GPU for about 4 days.
 
 
 ### Run the trained model
